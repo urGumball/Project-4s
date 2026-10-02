@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,445;1,445&family=Outfit:wght@300&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  background-image: url('bg-1.jpg');
+  background-size: unset;
+  background-position: center;
+}
+
+h1 {
+  font-family: 'Outfit';
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Outfit';
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Jost;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.10);
+  border-radius: 10px;
+}
+
+.homebtn {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Jost';
+  }
