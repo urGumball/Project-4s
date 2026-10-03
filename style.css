@@ -16,6 +16,7 @@ h2 {
   font-family: 'Outfit';
   color: rgb(255, 255, 255);
   text-align: center;
+  margin-left: 10px;
 }
 
 p {
@@ -46,4 +47,37 @@ header {
     align-items: center;
     text-decoration: none;
     font-family: 'Jost';
+    margin-right: 10px;
+  }
+
+  .aboutbtn {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Jost';
+    margin-left: 0px;
+  }
+
+  .aboutusbtn {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Jost';
+    margin-left: 1050px;
   }
