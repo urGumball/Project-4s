@@ -24,6 +24,7 @@ p {
   font-family: Jost;
   font-size: 20px;
   color: rgb(255, 255, 255);
+  line-height: 1.5;
 }
 
 header {
