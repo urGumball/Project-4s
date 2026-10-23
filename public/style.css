@@ -81,4 +81,20 @@ header {
     text-decoration: none;
     font-family: 'Jost';
     margin-left: 1050px;
+  
+  }
+
+  .homebtn:hover {
+    border-color: gray;
+    color: gray;
+  }
+
+   .aboutbtn:hover {
+    border-color: gray;
+    color: gray;
+  }
+
+   .aboutusbtn:hover {
+    border-color: gray;
+    color: gray;
   }
