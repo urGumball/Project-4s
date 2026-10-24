@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,445;1,445&family=Outfit:wght@300&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-html {
-  background: linear-gradient(to bottom, #011418, #05353a);
-  background-attachment: fixed;
-}
-
 body {
   background-image: url('bg-1.jpg');
   background-size: unset;
