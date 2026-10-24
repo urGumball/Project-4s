@@ -4,6 +4,9 @@ body {
   background-image: url('bg-1.jpg');
   background-size: unset;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(1, 20, 24);
+  background-attachment: fixed;
 }
 
 h1 {
@@ -33,6 +36,11 @@ header {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.10);
   border-radius: 10px;
+  gap: 3px;
+}
+
+header h2 {
+  margin-right: auto;
 }
 
 .homebtn {
@@ -48,7 +56,9 @@ header {
     align-items: center;
     text-decoration: none;
     font-family: 'Jost';
-    margin-right: 10px;
+    gap: 10px;
+    margin: 0;
+    transition: color 0.5s ease, border-color 0.5s ease;
   }
 
   .aboutbtn {
@@ -64,8 +74,22 @@ header {
     align-items: center;
     text-decoration: none;
     font-family: 'Jost';
-    margin-left: 0px;
-  }
+    gap: 10px;
+    margin: 0;
+    width: auto;
+    min-width: 100px;
+    height: auto;
+    min-height: 55px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    transition: color 0.5s ease, border-color 0.5s ease;
+}
 
   .aboutusbtn {
     background-color: rgba(0, 0, 0, 0.04);
@@ -80,21 +104,53 @@ header {
     align-items: center;
     text-decoration: none;
     font-family: 'Jost';
-    margin-left: 1050px;
+    gap: 10px;
+    margin: 0;
+    transition: color 0.5s ease, border-color 0.5s ease;
   }
 
   .githubbtn {
-    background-color: rgba(0, 0, 0, 0.04);
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    border: 3px solid rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 500px;
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: none;
-    font-family: 'Jost';
-    margin-left: 500px;
+  background-color: rgba(0, 0, 0, 0.04);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  font-family: 'Jost';
+  text-decoration: none;
+  width: 350px;
+  min-height: 50px;
+  height: auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  margin: 20px auto;
+  transition: color 0.5s ease, border-color 0.5s ease;
+}
+
+  .homebtn:hover {
+    transition: color 0.2s ease, border-color 0.2s ease;
+    border-color: gray;
+    color: gray;
+  }
+
+   .aboutbtn:hover {
+    transition: color 0.2s ease, border-color 0.2s ease;
+    border-color: gray;
+    color: gray;
+  }
+
+   .aboutusbtn:hover {
+    transition: color 0.2s ease, border-color 0.2s ease;
+    border-color: gray;
+    color: gray;
+  }
+
+  .githubbtn:hover {
+    transition: color 0.2s ease, border-color 0.2s ease;
+    border-color: rgb(16, 178, 203);
+    color: rgb(16, 178, 203);
   }
